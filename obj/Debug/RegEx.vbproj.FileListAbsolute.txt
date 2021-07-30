@@ -1,0 +1,12 @@
+C:\Users\dgrewal\Documents\Projects\Development\dotNet\RegEx\bin\Debug\RegExTester.exe.config
+C:\Users\dgrewal\Documents\Projects\Development\dotNet\RegEx\bin\Debug\RegExTester.exe
+C:\Users\dgrewal\Documents\Projects\Development\dotNet\RegEx\bin\Debug\RegExTester.pdb
+C:\Users\dgrewal\Documents\Projects\Development\dotNet\RegEx\bin\Debug\RegExTester.xml
+C:\Users\dgrewal\Documents\Projects\Development\dotNet\RegEx\obj\Debug\RegEx.vbproj.AssemblyReference.cache
+C:\Users\dgrewal\Documents\Projects\Development\dotNet\RegEx\obj\Debug\RegExTester.Form1.resources
+C:\Users\dgrewal\Documents\Projects\Development\dotNet\RegEx\obj\Debug\RegExTester.Resources.resources
+C:\Users\dgrewal\Documents\Projects\Development\dotNet\RegEx\obj\Debug\RegEx.vbproj.GenerateResource.cache
+C:\Users\dgrewal\Documents\Projects\Development\dotNet\RegEx\obj\Debug\RegEx.vbproj.CoreCompileInputs.cache
+C:\Users\dgrewal\Documents\Projects\Development\dotNet\RegEx\obj\Debug\RegExTester.exe
+C:\Users\dgrewal\Documents\Projects\Development\dotNet\RegEx\obj\Debug\RegExTester.xml
+C:\Users\dgrewal\Documents\Projects\Development\dotNet\RegEx\obj\Debug\RegExTester.pdb
