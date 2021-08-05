@@ -3,7 +3,8 @@ Imports System.Text.RegularExpressions
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
 
-        chkShowAffected.Checked = True
+        'chkShowAffected.Checked = True
+        'chkShowLineNo.Checked = True
 
     End Sub
     Private Sub cmdParse_Click(sender As Object, e As EventArgs) Handles cmdParse.Click
@@ -22,16 +23,15 @@ Public Class Form1
 
             For Each strLine As String In strInput.Split(vbLf)
                 intLineNo = intLineNo + 1
-                strLinePrefix = CStr(intLineNo).PadLeft(4, "0") & ":  "
-                strLine = LTrim(strLine)
+                strLinePrefix = IIf(chkShowLineNo.Checked, CStr(intLineNo).PadLeft(4, "0") & ":  ", "")
                 If chkShowAffected.Checked Then
                     If Regex.IsMatch(strLine, strPattern) Then
                         strResult = Regex.Replace(strLine, strPattern, strReplaceWith)
-                        strOutput = strOutput & strLinePrefix & strResult & Environment.NewLine
+                        strOutput = strOutput & strLinePrefix & strResult & vbLf
                     End If
                 Else
                     strResult = Regex.Replace(strLine, strPattern, "")
-                    strOutput = strOutput & strLinePrefix & strResult & Environment.NewLine
+                    strOutput = strOutput & strLinePrefix & strResult & vbLf    'Environment.NewLine
                 End If
             Next
             ShowOutput(strOutput)
@@ -44,7 +44,7 @@ Public Class Form1
     End Sub
     Private Sub ShowOutput(ByVal strOutput As String)
 
-        strOutput = strOutput & Environment.NewLine
+        strOutput = strOutput & vbLf    'Environment.NewLine
 
         txtOutput.Text = txtOutput.Text + strOutput
 
