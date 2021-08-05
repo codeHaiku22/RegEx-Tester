@@ -30,7 +30,7 @@ Public Class Form1
                         strOutput = strOutput & strLinePrefix & strResult & vbLf
                     End If
                 Else
-                    strResult = Regex.Replace(strLine, strPattern, "")
+                    strResult = Regex.Replace(strLine, strPattern, strReplaceWith)
                     strOutput = strOutput & strLinePrefix & strResult & vbLf    'Environment.NewLine
                 End If
             Next
