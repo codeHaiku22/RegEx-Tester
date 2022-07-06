@@ -42,7 +42,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtInput.Location = New System.Drawing.Point(13, 34)
-        Me.txtInput.MaxLength = 65534
+        Me.txtInput.MaxLength = 0
         Me.txtInput.Multiline = True
         Me.txtInput.Name = "txtInput"
         Me.txtInput.ScrollBars = System.Windows.Forms.ScrollBars.Both
@@ -66,7 +66,7 @@ Partial Class Form1
         Me.txtRegExPattern.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtRegExPattern.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.txtRegExPattern.Font = New System.Drawing.Font("DejaVu Sans Mono", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRegExPattern.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtRegExPattern.Location = New System.Drawing.Point(91, 252)
         Me.txtRegExPattern.Name = "txtRegExPattern"
         Me.txtRegExPattern.Size = New System.Drawing.Size(681, 32)
@@ -147,7 +147,7 @@ Partial Class Form1
         Me.txtReplaceWith.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtReplaceWith.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.txtReplaceWith.Font = New System.Drawing.Font("DejaVu Sans Mono", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtReplaceWith.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtReplaceWith.Location = New System.Drawing.Point(91, 293)
         Me.txtReplaceWith.Name = "txtReplaceWith"
         Me.txtReplaceWith.Size = New System.Drawing.Size(415, 32)

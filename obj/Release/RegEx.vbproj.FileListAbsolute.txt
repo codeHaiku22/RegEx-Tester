@@ -9,3 +9,14 @@ C:\Users\dgrewal\Documents\Projects\Development\dotNet\RegEx\obj\Release\RegEx.v
 C:\Users\dgrewal\Documents\Projects\Development\dotNet\RegEx\obj\Release\RegExTester.exe
 C:\Users\dgrewal\Documents\Projects\Development\dotNet\RegEx\obj\Release\RegExTester.xml
 C:\Users\dgrewal\Documents\Projects\Development\dotNet\RegEx\obj\Release\RegExTester.pdb
+C:\Users\dgrewal\Documents\Projects\Development\_git\RegEx-Tester\bin\Release\RegExTester.exe.config
+C:\Users\dgrewal\Documents\Projects\Development\_git\RegEx-Tester\bin\Release\RegExTester.exe
+C:\Users\dgrewal\Documents\Projects\Development\_git\RegEx-Tester\bin\Release\RegExTester.pdb
+C:\Users\dgrewal\Documents\Projects\Development\_git\RegEx-Tester\bin\Release\RegExTester.xml
+C:\Users\dgrewal\Documents\Projects\Development\_git\RegEx-Tester\obj\Release\RegExTester.Form1.resources
+C:\Users\dgrewal\Documents\Projects\Development\_git\RegEx-Tester\obj\Release\RegExTester.Resources.resources
+C:\Users\dgrewal\Documents\Projects\Development\_git\RegEx-Tester\obj\Release\RegEx.vbproj.GenerateResource.cache
+C:\Users\dgrewal\Documents\Projects\Development\_git\RegEx-Tester\obj\Release\RegEx.vbproj.CoreCompileInputs.cache
+C:\Users\dgrewal\Documents\Projects\Development\_git\RegEx-Tester\obj\Release\RegExTester.exe
+C:\Users\dgrewal\Documents\Projects\Development\_git\RegEx-Tester\obj\Release\RegExTester.xml
+C:\Users\dgrewal\Documents\Projects\Development\_git\RegEx-Tester\obj\Release\RegExTester.pdb
