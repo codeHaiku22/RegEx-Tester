@@ -111,7 +111,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtOutput.Location = New System.Drawing.Point(12, 351)
-        Me.txtOutput.MaxLength = 65534
+        Me.txtOutput.MaxLength = 0
         Me.txtOutput.Multiline = True
         Me.txtOutput.Name = "txtOutput"
         Me.txtOutput.ReadOnly = True
